@@ -1,0 +1,115 @@
+{
+    "Arabica": [
+        {
+            "nama": "Kopi Arabika Sidikalang",
+            "size": "1.000 Gram",
+            "harga": "148.000",
+            "foto": "https://rikikurnia.com/prakerja/api/img/1.jpg",
+            "link": "https://www.tokopedia.com/sopic-store/kopi-arabika-sidikalang-1000-gr-biji"
+        },
+        {
+            "nama": "Kopi Arabica Aceh Gayo Super",
+            "size": "500 Gram",
+            "harga": "58.000",
+            "foto": "https://rikikurnia.com/prakerja/api/img/2.jpg",
+            "link": "https://www.tokopedia.com/sopic-store/kopi-arabica-aceh-gayo-super-500-gr-bubuk-kasar"
+        },
+        {
+            "nama": "Kopi Arabica Gayo Honey Process",
+            "size": "1.000 Gram",
+            "harga": "200.000",
+            "foto": "https://rikikurnia.com/prakerja/api/img/3.jpg",
+            "link": "https://www.tokopedia.com/sopic-store/kopi-arabica-gayo-honey-process-1-kg-bubuk-halus"
+        },
+        {
+            "nama": "Kopi Arabica Gayo Premium Specialty",
+            "size": "200 Gram",
+            "harga": "49.000",
+            "foto": "https://rikikurnia.com/prakerja/api/img/4.jpg",
+            "link": "https://www.tokopedia.com/sopic-store/kopi-arabica-gayo-premium-specialty-200-gr-bubuk-biji-grosir-biji"
+        },
+        {
+            "nama": "Kopi Luwak Liar Arabica Gayo",
+            "size": "1.000 Gram",
+            "harga": "280.000",
+            "foto": "https://rikikurnia.com/prakerja/api/img/5.jpg",
+            "link": "https://www.tokopedia.com/sopic-store/kopi-luwak-liar-arabica-gayo-1kg-biji-bubuk-bubuk-halus"
+        },
+        {
+            "nama": "Kopi Arabica Gayo Peaberry",
+            "size": "500 Gram",
+            "harga": "105.000",
+            "foto": "https://rikikurnia.com/prakerja/api/img/6.jpg",
+            "link": "https://www.tokopedia.com/sopic-store/kopi-arabica-gayo-peaberry-jantan-500-gr-bubuk-biji-biji"
+        },
+        {
+            "nama": "Kopi Arabica Gayo Wine",
+            "size": "500 Gram",
+            "harga": "118.000",
+            "foto": "https://rikikurnia.com/prakerja/api/img/7.jpg",
+            "link": "https://www.tokopedia.com/sopic-store/kopi-arabika-gayo-wine-500-gr-biji-bubuk-grosir-reseller-dropshiper-bubuk-halus"
+        }
+    ],
+    "Robusta": [
+        {
+            "nama": "Kopi Aceh Robusta Gayo Natural Premium",
+            "size": "250 Gram",
+            "harga": "25.000",
+            "foto": "https://rikikurnia.com/prakerja/api/img/8.jpg",
+            "link": "https://www.tokopedia.com/sopic-store/kopi-aceh-robusta-gayo-natural-premium-250-gr-bubuk-kasar"
+        },
+        {
+            "nama": "Kopi Robusta Natural Sidikalang Premium",
+            "size": "500 Gram",
+            "harga": "40.000",
+            "foto": "https://rikikurnia.com/prakerja/api/img/9.jpg",
+            "link": "https://www.tokopedia.com/sopic-store/kopi-robusta-natural-sidikalang-premium-500-gr-biji"
+        }
+    ],
+    "Non Kopi": [
+        {
+            "nama": "Es Krim Mangkok",
+            "size": "250 Gram",
+            "harga": "25.000",
+            "foto": "https://p0.pxfuel.com/preview/861/839/598/ice-ice-cream-ice-cream-sundae-sweet.jpg",
+            "link": "https://www.tokopedia.com/jakartagrosirjaya/aice-vanilla-chocolate-sundae-ice-cream-eskrim-800-ml"
+        },
+        {
+            "nama": "Matcha Latte",
+            "size": "300 ml",
+            "harga": "20.000",
+            "link": "#",
+            "foto": "https://www.siftandsimmer.com/wp-content/uploads/2023/02/iced-matcha-latte-featured.jpg"
+        },
+        {
+            "nama": "Taro",
+            "size": "300 ml",
+            "harga": "20.000",
+            "link": "#",
+            "foto": "data:image/jpeg;base64,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"
+        },
+        {
+            "nama": "Coconut Strawberry ",
+            "size": "300 ml",
+            "harga": "25.000",
+            "link": "#",
+            "foto": "https://i0.wp.com/www.missinthekitchen.com/wp-content/uploads/2013/05/Strawberry-Vodka-Cocktail-Image.jpg?resize=720%2C1080&ssl=1"
+        }
+    ],
+    "Snacks": [
+        {
+            "nama": "Croffle",
+            "size": "1 pcs",
+            "harga": "10.000",
+            "link": "#",
+            "foto": "https://i0.wp.com/resepkoki.id/wp-content/uploads/2021/09/Resep-Croffle.jpg?fit=996%2C1328&ssl=1"
+        },
+        {
+            "nama": "Toasted",
+            "size": "1pcs",
+            "harga": "20.000",
+            "link": "#",
+            "foto": "https://www.recipetineats.com/wp-content/uploads/2015/12/Monte-Cristo_PS_1.jpg"
+        }
+    ]
+}

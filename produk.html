@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <title>Produk</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="vendor/bootstrap/sketchy.css">
+    <link rel="stylesheet" href="css/produk.css">
+    <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <style data-info="kode css bisa ditulis di bawah sini atau di css/produk.css">
+    </style>
+</head>
+
+<body data-info="tulis kode bootstrap di baris 22">
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg no-gutters bisadicopy">
+        <div class="container">
+            <div class="col-2 text-start">
+                <a href="https://www.rikikurnia.com">
+                    <img src="images/logo/logo_kuy.png" height="30" alt="image">
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav12"
+                aria-controls="navbarNav12" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center col-md-8" id="navbarNav12">
+                <ul class="navbar-nav justify-content-center">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html#best-seller">Best Seller</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about-us">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#our-team">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact-us">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <ul class="navbar-nav col-2 justify-content-end d-none d-md-flex">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.instagram.com"><i class="bi bi-instagram"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.facebook.com"><i class="bi bi-facebook"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"
+                        href="https://wa.me/6289638700208?text=Halo kopi kuy saya ingin lihat pricelist nya"
+                        target="_blank"><i class="bi bi-whatsapp"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="riki-block produk text-center my-5 py-5">
+        <div class="container">
+            <h1>Pilih Produk Anda</h1>
+            <p class="fs-4">Nikmati produk pilihan biji kopi dari petani yang fresh</p>
+            <hr class="border border-success border-3 opacity-75">
+
+            <div class="form-floating">
+                <select class="form-select" id="select_kopi">
+                    <option value="all" selected>Semua</option>
+                    <option value="Kopi">Kopi</option>
+                    <option value="Teh">Teh</option>
+                    <option value="Snack">Snack</option>
+                </select>
+                <label for="select_kopi">Pilih Jenis Produk</label>
+            </div>
+
+            <div id="baris_produk" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center mt-5">
+
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="https://rikikurnia.com/prakerja/api/img/1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Kopi Arabica Sidikalang</h5>
+                            <div class="row hargasize my-4">
+                                <div class="col">
+                                    500 Gram
+                                </div>
+                                <div class="col fw-bold text-success">
+                                    150.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-success w-100"><i class="bi bi-cart4"></i> Beli</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="images/produk/product_capuchino.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Cappuccino</h5>
+                            <div class="row hargasize my-4">
+                                <div class="col">
+                                    250 Ml
+                                </div>
+                                <div class="col fw-bold text-success">
+                                    15.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-success w-100"><i class="bi bi-cart4"></i> Beli</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="https://halalpedia.oss-ap-southeast-5.aliyuncs.com/2023/10/20231017163647-652e55af02988-es-teh-jawa.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Es Teh Jumbo</h5>
+                            <div class="row hargasize my-4">
+                                <div class="col">
+                                    500 Ml
+                                </div>
+                                <div class="col fw-bold text-success">
+                                    10.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-success w-100"><i class="bi bi-cart4"></i> Beli</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="https://www.siftandsimmer.com/wp-content/uploads/2023/02/iced-matcha-latte-featured.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Matcha Latte</h5>
+                            <div class="row hargasize my-4">
+                                <div class="col">
+                                    400 Ml
+                                </div>
+                                <div class="col fw-bold text-success">
+                                    25.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-success w-100"><i class="bi bi-cart4"></i> Beli</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="images/produk/product_espresso.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Espresso</h5>
+                            <div class="row hargasize my-4">
+                                <div class="col">
+                                    350 Ml
+                                </div>
+                                <div class="col fw-bold text-success">
+                                    15.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-success w-100"><i class="bi bi-cart4"></i> Beli</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="https://kurio-img.kurioapps.com/21/02/24/4f99af33-b3c1-47cd-a219-f1a5289f8b29.jpe"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Tempe Mendoan</h5>
+                            <div class="row hargasize my-4">
+                                <div class="col">
+                                    10 Pcs
+                                </div>
+                                <div class="col fw-bold text-success">
+                                    25.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-success w-100"><i class="bi bi-cart4"></i> Beli</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    <footer class="riki-block footer-large bg-success py-5">
+        <div class="container">
+            <div class="row align-items-top text-center text-md-left">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <h3 class="mb-4"><strong>Cabang Jakarta</strong></h3>
+                    <p>Jl. Dago No. 14</p>
+                    <p>+6281290465033</p>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 mt-4 mt-sm-0">
+                    <h3 class="mb-4"><strong>Cabang Bali</strong></h3>
+                    <p>Denpasar, Avenue 14 No.5</p>
+                    <p>+6281345678910</p>
+                </div>
+
+                <div class="col-12 col-md-4 mt-5 mt-md-0 text-md-left">
+                    <h3 class="mb-4"><strong>About Us</strong></h3>
+                    <p>Kopi Kuy merupakan cafe kopi lokal yang terkenal akan kesegaran biji kopinya.</p>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col text-center">
+                    &copy; 2024 Kopi Kuy. Hak Cipta Dilindungi Undang Undang
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/produk.js"></script>
+    <script data-info="bisa tulis kode js di js/produk.js ataupun di bawah sini">
+
+        var data_mentah = {
+            "Coffee": [
+                {
+                    "nama": "Kopi Arabica Sidikalang",
+                    "foto": "https://rikikurnia.com/prakerja/api/img/1.jpg",
+                    "size": "500 Gram",
+                    "harga": "150.000",
+                    "link": "https://tokopedia.com/arabicasidikalang"
+                },
+                {
+                    "nama": "Cappuccino",
+                    "foto": "images/produk/product_capuchino.jpg",
+                    "size": "150 Ml",
+                    "harga": "15.000",
+                    "link": "https://tokopedia.com/cappuccino"
+                },
+                {
+                    "nama": "Espresso",
+                    "foto": "images/produk/product_espresso.jpg",
+                    "size": "100 Ml",
+                    "harga": "14.000",
+                    "link": "https://tokopedia.com/espressopahit"
+                }
+            ],
+            "Non Coffee": [
+                {
+                    "nama": "Es Teh Jumbo",
+                    "foto": "https://halalpedia.oss-ap-southeast-5.aliyuncs.com/2023/10/20231017163647-652e55af02988-es-teh-jawa.jpg",
+                    "size": "250 Ml",
+                    "harga": "10.000",
+                    "link": "https://tokopedia.com/estehmanis"
+
+                },
+                {
+                    "nama": "Thai Tea",
+                    "foto": "https://dcostseafood.id/wp-content/uploads/2023/03/Thai-Tea.jpg",
+                    "size": "250 Ml",
+                    "harga": "10.000",
+                    "link": "https://tokopedia.com/estehmanis"
+                },
+                {
+                    "nama": "Matcha Latte",
+                    "foto": "https://www.siftandsimmer.com/wp-content/uploads/2023/02/iced-matcha-latte-featured.jpg",
+                    "size": "400 Ml",
+                    "harga": "25.000",
+                    "link": "https://tokopedia.com/estehmanis"
+                }
+            ],
+            "Snack": [
+                {
+                    "nama": "Tempe Mendoan",
+                    "foto": "https://kurio-img.kurioapps.com/21/02/24/4f99af33-b3c1-47cd-a219-f1a5289f8b29.jpe",
+                    "size": "10 Pcs",
+                    "harga": "25.000",
+                    "link": "https://tokopedia.com/mendoannikmat"
+                }
+            ]
+        }
+
+        var produk_yang_dipilih = []
+        console.log("Data mentah:", data_mentah)
+        function updateSelect() {
+            select_kopi.innerHTML = `<option selected disabled>-</option>`
+            data_mentah = Object.assign({ "All Product": [] }, data_mentah)
+            Object.keys(data_mentah).forEach(kategori => {
+                select_kopi.innerHTML += `<option value="${kategori}">${kategori}</option>`
+                data_mentah["All Product"].push(...data_mentah[kategori])
+            })
+            console.log("fungsi update select sudah komplit,", Object.keys(data_mentah), data_mentah)
+        }
+        updateSelect()
+        baris_produk.innerHTML = ""
+        select_kopi.onchange = function () {
+            var pilihan = select_kopi.value
+            console.log("Pilihan Kategori", pilihan)
+            produk_yang_dipilih = data_mentah[pilihan]
+            console.log("Data yang sudah di filter", produk_yang_dipilih)
+            updateTampilan()
+        }
+
+        function updateTampilan() {
+            baris_produk.innerHTML = ""
+            produk_yang_dipilih.forEach(produk => {
+                baris_produk.innerHTML += `<!--Mulai Copy-->
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="${produk.foto}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">${produk.nama}</h5>
+                        <div class="row hargasize my-4">
+                            <div class="col">
+                                ${produk.size}
+                            </div>
+                            <div class="col fw-bold text-primary">
+                                ${produk.harga}
+                            </div>
+                        </div>
+                        <a href="${produk.link}" class="btn btn-primary w-100"><i class="bi bi-cart4"></i> Beli</a>
+                    </div>
+                </div>
+            </div>
+            <>`
+            })
+            console.log("Tampilan produk sudah dijalankan")
+        }
+        var sumber = "https://rikikurnia.com/prakerja/api/kopi"
+        var sumber2 = "data.json"
+        $.getJSON(sumber2).then(data => {
+            data_mentah = data
+            console.log("data berhasil diambil", data)
+            updateSelect()
+        })
+    </script>
+</body>
+
+</html>
